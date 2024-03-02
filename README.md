@@ -14,7 +14,13 @@
 
 ### Uso de Resolvers:
 - Los resolvers se utilizan comúnmente en combinación con el enrutamiento de Angular. Puedes asociar un resolver a una ruta en la configuración del enrutador utilizando la propiedad resolve. 
- 
+
+### Beneficios de los Resolvers:
+** Aseguran que los datos necesarios estén disponibles antes de cargar una vista.
+** Evitan la visualización de vistas parciales o incompletas.
+** Mejoran la experiencia del usuario al garantizar una carga de datos suave y sin problemas.
+
+En resumen, los resolvers en Angular te permiten cargar datos de forma asíncrona antes de activar una ruta enrutada, lo que garantiza que la vista se cargue con todos los datos necesarios para su visualización. Esto es especialmente útil en aplicaciones que dependen de datos externos o que tienen rutas protegidas que requieren autenticación o autorización antes de su visualización.
 <div>
 
 <img align="right" width="400" alt="Shimarin" src="https://firebasestorage.googleapis.com/v0/b/franki-briones.appspot.com/o/dev%20metod.gif?alt=media&token=a3c328cf-ad9b-49f5-a45d-bb84b79f4fbe"/>
